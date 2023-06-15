@@ -1,4 +1,4 @@
-# ssl_certificate_expiration_checker_lite
+# python file backup to s3
 ![made-with-python][made-with-python]
 ![Python Versions][pyversion-button]
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fpassword123456%2Fpy_file_backup_to_s3&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -58,10 +58,10 @@ system_logs,/var/log
 
 >> Backup Result
 
-1,[ok],success,/stg/proftpd_root/logstore/db_chakra/2023-06-13/MAX_CONFIG.tar.gz | 783188983 bytes
-2,[ok],success,/stg/proftpd_root/logstore/db_chakra/2023-06-13/MAX_CONFIG.tar.gz.md | 64 bytes
-3,[ok],success,/stg/proftpd_root/logstore/db_chakra/2023-06-13/MAX_SQL.tar.gz | 326465 bytes
-4,[ok],success,/stg/proftpd_root/logstore/db_chakra/2023-06-13/MAX_SQL.tar.gz.md | 64 bytes
+1,[ok],success,/var/log/2023-06-14/ssh_auth.tar.gz | 326465 bytes
+2,[ok],success,/var/log/2023-06-14/ssh_xferlog.tar.gz | 326465 bytes
+3,[ok],success,/var/log/2023-06-14/messages.tar.gz | 102400 bytes
+4,[ok],success,/var/log/2023-06-14/cron.tar.gz | 64 bytes
 
 ------------------------------------->
 >> Send to Slack: 200
